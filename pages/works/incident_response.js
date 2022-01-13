@@ -5,7 +5,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => (
   <Layout title="incident_response">
-    <Container maxW="container.xl">
+    <Container maxW="container.lg">
       <Title>
         Incident Response <Badge>2021</Badge>
       </Title>

@@ -11,7 +11,7 @@ import P from '../../components/paragraph'
 
 const Work = () => (
   <Layout title="coding">
-    <Container maxW="container.xl">
+    <Container maxW="container.lg">
       <Title>
         Coding <Badge>2018 - Present</Badge>
       </Title>

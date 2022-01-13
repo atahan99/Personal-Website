@@ -11,7 +11,7 @@ import P from '../../components/paragraph'
 
 const Work = () => (
   <Layout title="intrusion_detection">
-    <Container maxW="container.xl">
+    <Container maxW="container.lg">
       <Title>
         Intrusion Detection <Badge>2021</Badge>
       </Title>

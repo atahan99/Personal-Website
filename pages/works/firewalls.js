@@ -12,7 +12,7 @@ import P from '../../components/paragraph'
 
 const Work = () => (
   <Layout title="firewalls">
-    <Container maxW="container.xl">
+    <Container maxW="container.lg">
       <Title>
         Firewalls <Badge>2021</Badge>
       </Title>
