@@ -20,7 +20,7 @@ const Skills = () => (
           Operating Systems
     </Heading>
 
-    <Section>
+    <Section >
 
     <List>
 
@@ -62,18 +62,7 @@ const Skills = () => (
               >
                 Mac OS
               </Button>
-              <Button
-                variant="ghost"
-                leftIcon={<Icon as={IoLogoApple} />}
-              >
-                IOS
-              </Button>
-              <Button
-                variant="ghost"
-                leftIcon={<Icon as={IoLogoApple} />}
-              >
-                Ipad OS
-              </Button>
+              
               <Button
                 variant="ghost"
                 leftIcon={<Icon as={IoTerminal} />}
