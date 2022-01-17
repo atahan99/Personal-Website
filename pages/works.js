@@ -11,7 +11,10 @@ import thumbDigFor from '../public/images/works/digfor.jpg'
 import thumbStoNet from '../public/images/works/stonet.jpg'
 import thumbNetAdmin from '../public/images/works/netadm.jpg'
 import thumbCoding from '../public/images/works/coding.jpg'
-
+import thumbNetworkPerf from '../public/images/works/network2.jpg'
+import thumbEnterprise from '../public/images/works/enterprise1.jpg'
+import thumbRouting from '../public/images/works/network3.jpg'
+import thumbRedun from '../public/images/works/firewalls.jpg'
 
 
 
@@ -79,6 +82,32 @@ const Works = () => (
             Some examples of my coding projects and assignments
           </WorkGridItem>
         </Section>
+        
+        <Section delay={0.5}>
+          <WorkGridItem id="network_performance" thumbnail={thumbNetworkPerf} title="Spanning Trees and Network Performance">
+            Summary of a lab involving the deployment of a network architecture and configuring STP
+          </WorkGridItem>
+        </Section>
+
+        
+        <Section delay={0.5}>
+          <WorkGridItem id="enterprise" thumbnail={thumbEnterprise} title="Enterprise Network Infrastructure ">
+            Summary of a lab involving the deployment of an enterprise network infrastructure
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.5}>
+          <WorkGridItem id="routing" thumbnail={thumbRouting} title="Routing Protocols">
+            Summary of a lab involving different IPV4 routing protocols
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.5}>
+          <WorkGridItem id="network_redundancy" thumbnail={thumbRedun} title="Redundant LAN Gateways">
+            Summary of a lab involving load balancing in a network
+          </WorkGridItem>
+        </Section>
+
         
       
       </SimpleGrid>
