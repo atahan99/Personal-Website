@@ -18,13 +18,13 @@ const Resume = () => (
         data='/resume.pdf'
         type="application/pdf"
         width="100%"
-        height="800"
+        height="100%"
       >
 
         <iframe
           src='/resume.pdf'
           width="100%"
-          height="800"
+          height="100%"
         >
         <p>This browser does not support PDF!</p>
         </iframe>
