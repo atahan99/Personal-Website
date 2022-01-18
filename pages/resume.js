@@ -6,7 +6,7 @@ import Section from '../components/section'
 
 const Resume = () => (
   <Layout title="Resume">
-    <Container maxW="container.xl">
+    <Container maxW="container.xl" maxH="full">
       <Heading as="h3" fontSize={20} mb={4}>
         My Resume
       </Heading>
