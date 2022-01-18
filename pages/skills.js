@@ -1,5 +1,5 @@
 import { Heading ,List,
-    ListItem,Button,Icon, Container } from '@chakra-ui/react'
+    ListItem,Button,Icon, Container, Box, useColorModeValue, Link} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import {
@@ -15,6 +15,20 @@ const Skills = () => (
     <Heading as="h3" variant="section-title">
           Skills
     </Heading>
+
+    <Box
+        borderRadius="lg"
+        mt={6}
+        mb={6}
+        
+        p={3}
+        textAlign="center"
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+      >
+        Certifications and additional information regarding my skillset can be found on my <Link href="https://www.linkedin.com/in/atahan-kucuk/" target="_blank">
+          Linkedin
+          </Link> page.
+      </Box>
 
     <Heading as="h5" variant="section-title">
           Operating Systems
