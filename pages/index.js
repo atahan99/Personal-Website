@@ -61,7 +61,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hi, I&apos;m a cybersecurity and network engineer based in USA!
+        Hi, I&apos;m a cybersecurity and network engineer based in the USA!
       </Box>
 
       <Box display={{ md: 'flex' }}>
