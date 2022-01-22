@@ -15,14 +15,14 @@ const Resume = () => (
         
       <div > 
       <object
-        data='/resume.pdf'
+        data='/Resume.pdf'
         type="application/pdf"
         width="100%"
         height="1000"
       >
 
         <iframe
-          src='/resume.pdf'
+          src='/Resume.pdf'
           width="100%"
           height="1000"
         >
