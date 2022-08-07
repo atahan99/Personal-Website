@@ -23,7 +23,8 @@ import { IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin, IoLogoGithub } from 're
 const Home = () => (
   <Layout>
     <Container maxW="container.xl">
-
+     
+    /*
     <Center>
 
 
@@ -50,7 +51,7 @@ const Home = () => (
           />
       </SimpleGrid>
     </Center>
-    
+    */
 
       <Box
         borderRadius="lg"
