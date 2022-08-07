@@ -24,9 +24,8 @@ const Home = () => (
   <Layout>
     <Container maxW="container.xl">
      
-    /*
+    
     <Center>
-
 
     <SimpleGrid columns={[1, 1, 2]} gap={3}>
     <Image
@@ -51,8 +50,7 @@ const Home = () => (
           />
       </SimpleGrid>
     </Center>
-    */
-
+    
       <Box
         borderRadius="lg"
         mt={6}
