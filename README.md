@@ -2,7 +2,8 @@
 
 [https://atahankucuk.com/](https://atahankucuk.com/)
 
-
+# Fork
+[Forked from Craftzdog](https://github.com/craftzdog/craftzdog-homepage)
 
 ## Stack
 
